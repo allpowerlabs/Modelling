@@ -1,0 +1,1 @@
+Entity	Value	Units	Source	Notes55 Gallons	0.208	m3	Conversion	35 Gallons	0.132	m3	Conversion	Small FIBC	0.703	m3	APL	"35x35x35"" FIBC"Large FIBC	1.735	m3	APL	"41x41x63"" FIBC"20' Shipping Container	32.300	m3	http://en.wikipedia.org/wiki/Intermodal_container	40' Shipping Container	67.494	m3	http://en.wikipedia.org/wiki/Intermodal_container	
