@@ -1,0 +1,1 @@
+#Import process:#Figure converted to x,y values with GraphClick#Each curve interpolated with R approx() in 10% increments#Data combined into Onovwiona_2006_4.txt#Values rounded to 1 decimel place#Radiation_etc column adjusted for rows to sum to 100%
