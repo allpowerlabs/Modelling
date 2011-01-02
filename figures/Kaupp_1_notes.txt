@@ -1,0 +1,5 @@
+#Import process:
+#Figure converted to x,y values with GraphClick
+#Each curve interpolated with R approx() in 0.05 increments
+#Data combined into Kaupp_1.txt
+#Values rounded to 5 decimel places
