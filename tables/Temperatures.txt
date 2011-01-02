@@ -1,0 +1,1 @@
+Entity	Value	Units	Type	Source	NotesPorcelain	1200	¡C	Lower Firing	http://en.wikipedia.org/wiki/Porcelain	Porcelain	1400	¡C	Upper Firing	http://en.wikipedia.org/wiki/Porcelain	Soda-lime Glass	570	¡C	Glass Transition Temperature	http://en.wikipedia.org/wiki/Soda-lime_glass	Soda-lime Glass	1020	¡C	Liquidus Temperature	http://en.wikipedia.org/wiki/Soda-lime_glass						

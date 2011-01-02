@@ -1,0 +1,1 @@
+Entity	Value	Units	Source	NotesWondermotor 12V Brushed	8.5	ft-lb	http://www.wondermotor.com/brush_gearmotor.html	Rated torqueWondermotor 12V Brushed	11.5	N-m	http://www.wondermotor.com/brush_gearmotor.html	Rated torque
