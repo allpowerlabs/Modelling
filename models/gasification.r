@@ -1,3 +1,6 @@
+#See also:
+#Di Blasi, C. Dynamic behaviour of stratied downdraft gasifiers. Chemical engineering science 55, 2931-2944(2000).
+
 gasification <- function(reactants) {
  #from Vaezi, M., Passandideh-Fard, M. & Moghiman, M. On a numerical model for gasification of biomass materials: an alternative method to combustion. journal of fuel and combustion (2008).
 #Eq. 1 - CH_XO_YN_Z + w*H2O (l) + s*H2O (g) + m(O2+3.76N2) = n_H2*H2 + n_CO*CO + n_CO2 * CO2 + n_H2O * H2O + n_CH4 * CH4 + (z/2 + 3.76 m)*N2

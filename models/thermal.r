@@ -39,4 +39,5 @@ radial_heat_loss <- function(r_inside,r_outside,t_inside,t_outside,thermal_condu
  	dT <- t_i - t_o
 	k <- thermal_conductivity
 	q <-  (2*pi*k*dT)/(log(r_o/r_i)) #log is natural log (base e) in R
+	return(q)
 }

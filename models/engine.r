@@ -39,8 +39,9 @@ engine$thermal_efficiency <-function() {
 
 engine$volumetric_efficiency <- function() {
 	#http://www.ajdesigner.com/phpengine/engine_equations_volumetric_efficiency.php
-	VE <- cylinder_density/manifold_density #http://tunertools.com/articles/volumetric-efficiency.asp
-	
+	#VE <- cylinder_density/manifold_density #http://tunertools.com/articles/volumetric-efficiency.asp
+	VE <- 0.85
+	print("Engine Volumetric Efficiency Set To 85% (Generic Engine)")
 }
 #air input measurement and calculations
 #note that most equations work with air and ignore the effects of fuel volume/etc. With producer gas, this shouldn't be done, and equations should use the incoming mixture properties
@@ -70,8 +71,7 @@ engine$air_mass_flow <- function() {
 	air_mass <- (Volume*VE*MAP)/(R*Temp) #[kg]
 	CylinderNumber <- engine$cylinders
 	RPM <- engine$rpm
-	air_flow <- CylinderNumber*RPM*air_mass/(2*60)
-	
+	air_flow <- CylinderNumber*RPM*air_mass/(2*60)	
 }
 
 #Engine Energy Flows
