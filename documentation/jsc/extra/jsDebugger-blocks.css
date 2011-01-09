@@ -1,0 +1,19 @@
+table                { border: 1px solid blue ! important; }
+table td             { border: 1px solid lightblue ! important; }
+table table          { border: 1px solid green ! important; }
+table table td       { border: 1px solid lightgreen ! important; }
+table table table    { border: 1px solid red ! important; }
+table table table td { border: 1px solid orange ! important; }
+/* more deeply nested tables will also be red/orange */
+
+div { border: 1px solid ! important; }
+
+p { border: 1px dotted ! important; }
+
+body { background: white ! important; color: black ! important; }
+
+/*
+td, div, p { padding: 1px ! important; }
+*/
+
+* { padding: 2px; }
