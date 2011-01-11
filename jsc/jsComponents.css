@@ -1,0 +1,353 @@
+/*
+    Copyright 2006 Dr. Detlef Groth, Schwielowsee, Germany.
+     License: http://creativecommons.org/licenses/LGPL/2.1/
+     System        : JSCOMPONENTS_JS : 
+     Object Name   : $RCS_FILE$
+     Revision      : $REVISION$
+     Date          : Fri Nov 10 15:34:53 2006
+     Created By    : Dr. Detlef Groth, Schwielowsee, Germany
+     Created       : Fri Nov 10 15:34:53 2006
+
+     Last Modified : <080711.0800>
+     ID            : $Id$
+     Source        : $Source$
+     Description	
+     Notes
+
+  */
+div.JSTableSort table th {
+padding: 5px;
+padding-left: 14px;
+padding-right: 14px;
+background-color: #ccc ;
+}
+div.JSTableSort table th.SortNumber, div.JSTableSort table th.SortString {
+cursor: pointer ;
+}
+
+
+div.JSTableSort table th.SortAsc {
+background-color: #eef ;
+background-image: url(img/up.gif);
+background-repeat : no-repeat;
+cursor: pointer ;
+
+}
+div.JSTableSort table th.SortDesc {
+background-color: #efe;
+background-image: url(img/down.gif);
+background-repeat : no-repeat;
+cursor: pointer ;
+}
+div.JSTableStripe table tr.even td {
+background-color: #cff;
+}
+div.JSTableStripe table th {
+background-color: #ccc;
+}
+div.JSTableStripe table {
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 5px;
+    border-collapse: collapse ;
+}
+div.JSTableStripe table td, th {
+    padding: 5px;
+    border-top: solid;
+    border-left: solid;
+    border-width: 1px;
+}
+/* jsTreeControls.css */
+div.JSTree ul {
+    margin-top: 5px;
+}
+div.JSTree li {
+    margin-left: -15px;
+}
+
+div.JSTree li  {
+    list-style-position: inside ;
+    list-style-image : url(img/plus.gif); 
+    cursor: pointer ;
+    padding: 2px;
+}   
+
+div.JSTree li.leaf {
+    list-style-image : url(img/file2.gif);
+    cursor: auto ;
+}
+div.JSTree li.xml {
+    list-style-image : url(img/xml2.gif);
+    cursor: auto ;
+}
+
+div.JSTree li.include {
+    list-style-image : url(img/plus.gif);
+    cursor: pointer ;
+}
+div.JSTree li.include div {
+    display: none;
+}
+
+div.JSTree li.opened {
+    list-style-image : url(img/minus.gif); 
+    cursor: pointer ;
+}
+div.JSCollapse ul {
+    margin-top: 5px;
+}
+div.JSCollapse {
+    margin-left: -10px;
+}
+
+div.JSCollapse ul li {
+    list-style-type: none ;
+    padding: 2px;
+    cursor: pointer ;
+    background-color: #eee;
+}
+ div.JSCollapse ul li li {
+    list-style-type: none ;
+    list-style-image : none;
+} 
+div.CSSCollapse div.JSCollapse ul li {
+    list-style-image : url(img/plus20.gif); 
+}
+div.CSSCollapse div.JSCollapse ul li.opened {
+    list-style-image : url(img/minus20.gif); 
+}
+div.CSSCollapseArrow div.JSCollapse ul li {
+    list-style-image : url(img/down.gif); 
+}
+div.CSSCollapseArrow div.JSCollapse ul li.opened {
+    list-style-image : url(img/down.gif); 
+}
+div.CSSCollapseArrow div.JSCollapse ul li li {
+    list-style-image : none; 
+}
+div.CSSCollapse div.JSCollapse ul li li {
+    list-style-image : none ;
+}
+div.JSCollapse ul li span.ArrowDown,  div.JSCollapse ul li.opened span.ArrowDown  {
+    background-image:url(img/down.gif); 
+    background-repeat: no-repeat;
+    padding-left:20px;
+    text-decoration:underline;
+}
+
+div.JSTree ul.Underline a, div.JSCollapse ul.Underline a {
+  text-decoration: underline ;
+  
+}
+
+div.JSTree a, div.JSCollapse a {
+  text-decoration: none ;
+  
+}
+/* EOF jsTreeControls.css */
+/* FILE jsToolTipControls */
+#ttip {
+    position: absolute ;
+    padding: 5px;
+    border-width: 1px ;
+    border-style: dashed ;
+    width: 200px;
+    background-color: #eee;
+    cursor: help ;
+}
+span.JSTTip {
+    display: inline ;
+    border-bottom: 1px dashed ;
+     cursor: help ;
+  
+}
+/* EOF jsToolTipControls.css */
+/* FILE jsTabControls.css */
+div.JSTabNumbers ul {
+    padding: 1px;
+    margin: 0px;
+}
+div.JSTabNumbers ul li {
+    list-style: none;
+    display: inline;
+    line-height: 2.0em;
+    margin: 1px;
+    padding: 0.4em 1.0em;
+    font-weight: bold;
+    background-color: #ee9;
+}
+div.JSTabNumbers ul li:hover, div.JSTabNumbers ul li.current {
+    background-color: #999;
+}
+div.JSTabBox {
+    padding:2px;
+    
+    margin: 2px;
+}
+
+div.JSDragArea {
+    padding: 10px;
+    background-color: #eee;
+    border: 2px solid #999;
+    position: absolute;
+    cursor: move;
+}
+div.JSDragArea p , div.JSDragArea li, div.JSDragArea div, div.JSDragArea table, div.JSDragArea ul  {
+    cursor: default;
+}
+div.JSSearchList div.input {
+    padding: 5px;
+    border-bottom : 1px solid black;
+    border-top : 1px solid black;
+}
+div.JSSearchList ul {
+    margin-top: 5px;
+}
+div.JSSearchList ul li {
+    list-style-image : url(img/file.gif);
+    margin-left: 25px;
+    width: 200px;
+    padding: 2px ;
+}
+div.JSSearchList ul li a {
+    text-decoration: none ;
+}
+td.preTD {
+    background-color: #e0efe0;
+    border: 2px dashed #333 ;
+}
+div.JSDynContent {
+    display: inline;
+    color: blue;
+    cursor: pointer;
+}
+div.JSInlineTooltip span.tip {
+    display: none ;
+}
+div.JSInlineTooltip {
+    border-bottom: 1px dashed ;
+    cursor: help ;
+    display: inline ;
+}
+#rwgraph {
+    font-size:small; 
+    font-style: italic;
+    text-align: right;
+    padding-left:90px;
+}
+.w80 {
+    width: 80%;
+}
+div.JSMenu {
+    padding-bottom: 15px;
+    
+}
+div.JSMenu ul, div.JSMenu ul ul { 
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	line-height: 1;
+}
+div.JSMenu ul li  { /* all lists */
+    /* border-top: 1px solid #999; */
+    background-color: #ccc;
+    /* border-right: 1px solid #999; */
+}
+div.JSMenu ul li { /* all lists */
+    border-top: 1px solid #999;
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #999; 
+}
+div.JSMenu ul li li { /* all lists */
+    margin-top: 0px;
+    border-right: 1px solid #999; 
+    border-top: 1px solid #999; 
+    border-bottom: none;
+}
+
+div.JSMenu li.lastChild {
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+
+
+div.JSMenu ul a {
+    display: block;
+    padding-left: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    width: 8em;
+}
+
+div.JSMenu ul li { /* all list items */
+	float: left;
+	width: 8em; /* width needed or else Opera goes nuts */
+        
+}
+
+div.JSMenu ul li ul { /* second-level lists */
+    position: absolute;
+    width: 8em;
+    left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+}
+
+div.JSMenu ul li ul ul { /* third-and-above-level lists */
+    margin: -1.2em 0 0 8em;
+}
+
+div.JSMenu ul li:hover ul ul, div.JSMenu ul li:hover ul ul ul, div.JSMenu ul li.sfhover ul ul, div.JSMenu ul li.sfhover ul ul ul {
+	left: -999em;
+}
+
+div.JSMenu ul li:hover ul, div.JSMenu ul li li:hover ul, div.JSMenu ul li li li:hover ul, div.JSMenu ul li.sfhover ul, div.JSMenu ul li li.sfhover ul, div.JSMenu ul li li li.sfhover ul { /* lists nested under hovered list items */
+    left: auto;
+}
+div.JSTabs {
+    padding: 12px 4px 12px 4px;
+/*    border: 2px solid red ;*/
+}
+div.JSTabs ul {
+    padding: 0px;
+    margin: 0px ; /* 12px 0px 8px 8px;; */
+    list-style: none;
+    line-height: 1;
+}
+div.JSTabBox div.JSTabs ul li {
+    cursor: pointer ;
+}
+div.JSTabBox div.JSTabs ul li.current {
+    cursor: auto ;
+}
+
+div.JSTabs ul li  { 
+    background-color: #c9c9c9;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000; 
+/*    float: left; */
+    display: inline ;
+    min-width: 8em;
+    padding: 8px 12px 8px 12px;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+    /*    font-size: 120% ;*/
+    font-family: Verdana, sans-serif;
+}
+div.JSTabs ul.float li  { 
+    float: left;
+}
+div.JSTabs ul li:hover, div.JSTabs ul li.current {
+    background-color: #fff;
+}
+div.JSTabs ul li.current {
+    border-bottom: none;
+}
+div.JSTabs ul li:first-child, div.JSTabs ul li.firstChild {
+    border-left: 1px solid #000;
+}
+div.JSTabPanel {
+    clear: both ;
+    padding-top: 5px;
+}
